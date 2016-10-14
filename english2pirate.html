@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Pirate Translator</title>
+      <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" href="main.css" /> 
+      <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900" rel="stylesheet">
+      <script type="text/javascript" src="english2pirate.js"></script>
+    </head>
+    
+        <body>
+            <div id="banner"><h1><img src="banner2.png"></h1></div>
+            <table>
+                <td>
+                    <img src="peterpirate.jpg">
+                </td>
+                    <td>
+                        <div id="objects">
+                            <h1>English</h1>
+                                <div id="engTXTarea">
+                                    <p>
+                                        <textarea name="English" id="English" rows=10 cols=50 wrap="virtual"></textarea>
+                                    </p>
+                                </div>
+                            
+                                <input type="button" value="Translate!" id="translateButton">
+                            
+                                <input type="button" id="clearInput" value="Clear Text">
+                            
+                            <h1>Pirate Translation</h1>
+                                <div id="pirTXTarea">
+                                    <p>
+                                        <textarea name="Pirate" id="Pirate" disabled="disabled" rows=10 cols=50 wrap="virtual"></textarea>
+                    	            </p>
+                                </div>
+                    
+                                <input type="button" id="clearOutput" value="Clear Translation">
+                    
+                        </div>   
+                    </td>
+                        <td>
+                            <img src="peterpirate.jpg">
+                        </td>
+            </table>
+        </body>
+</html>

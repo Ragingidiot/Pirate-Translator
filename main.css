@@ -1,0 +1,31 @@
+body {
+    background-image: url(pirateship.jpg);
+    font-family: 'Cinzel Decorative', cursive;
+    color: #FFF;
+    padding-top: 1em;
+}
+
+table, td {
+   margin: auto;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#banner {
+    padding-top: 1em;
+}
+
+#objects {
+    text-align: center;
+}
+
+#engTXTarea {
+    padding: 25px;
+}
+
+#pirTXTarea {
+    padding: 25px;
+}
